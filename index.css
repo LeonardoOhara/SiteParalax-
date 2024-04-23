@@ -223,3 +223,76 @@ section div.flex {
     line-height: 32px;
 
 }
+
+
+section2 div.background-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+section2 div.background-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+section2 div.flex {
+    display: grid;
+    grid-template-columns: repeat(3, 50px); /* Define 3 colunas de 100px cada */
+    grid-gap: 50px 50px; /* Define o espaçamento entre as células */
+    align-items: right;
+    position: relative;
+    z-index: 0;
+}
+
+section2 div.flex p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section2 div.conteudo2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+section3 div.maquina {
+    display: flex; /* Usa flexbox para centralizar verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 80vh; /* Utiliza toda a altura da tela */
+    z-index: 0;
+}
+
+#videoFundo {
+    position: fixed; /* Fixa o vídeo na tela */
+    top: 0;
+    left: 0;
+    min-width: 100%; /* Garante que o vídeo cubra toda a largura da tela */
+    min-height: 100%; /* Garante que o vídeo cubra toda a altura da tela */
+    width: auto; /* Evita que o vídeo seja distorcido */
+    height: auto; /* Evita que o vídeo seja distorcido */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo da página */
+}
+
+.jogo {
+    position: absolute;
+    top: 43%;
+    right: 60%;
+    z-index: 1; /* Garante que o conteúdo fique sobre o vídeo de fundo */
+}
+
+
+
+a:link{
+    text-decoration: none;
+    color: white;
+
+}
