@@ -282,17 +282,28 @@ section3 div.maquina {
     z-index: -1; /* Coloca o vídeo atrás do conteúdo da página */
 }
 
-.jogo {
-    position: absolute;
-    top: 43%;
-    right: 60%;
-    z-index: 1; /* Garante que o conteúdo fique sobre o vídeo de fundo */
-}
-
-
 
 a:link{
     text-decoration: none;
     color: white;
 
 }
+
+
+img2.fliper{
+    position: absolute;
+    display: flex;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+    
+}
+
+
+
+
+
+
+   
+
